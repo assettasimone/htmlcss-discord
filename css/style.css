@@ -15,12 +15,17 @@ img {
     max-width: 100%;
 }
 
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
 /* #endregion  Main classes */
 
 /* Container style */
 .container {
-    max-width: 1200px;
+    max-width: 1080px;
     margin: 0 auto;
+    gap: 20px;
 }
 
 .c-flex {
@@ -29,8 +34,13 @@ img {
 }
 
 .c-small {
-    max-width: 800px;
+    max-width: 600px;
 }
+
+.container .double-col {
+    min-width: 70%;
+}
+
 
 /* End Container style */
 
@@ -48,11 +58,17 @@ header .container {
 #main-menu li {
     display: inline-block;
     color: #fff;
+    margin-right: 20px;
 }
+
+#main-menu li:last-child {
+    margin-right: 0;
+}
+
 
 .btn {
     background-color: #fff;
-    padding: .5rem 1rem;
+    padding: 1rem 2rem;
     border: none;
     border-radius: 3rem;
 }
@@ -90,3 +106,23 @@ header .container {
 
 
 /* #endregion Above the fold */
+
+/* region Belove the fold */
+.main-features .container {
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.content-wrap {
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.column img {
+    margin: 0 auto;
+}
+
+/* endregion Belove the fold */
