@@ -29,12 +29,16 @@ img {
     background-color: var(--dis-light-grey);
 }
 
-.mask-bottom {
+.mask {
     background-color: var(--dis-light);
     height: 50px;
     mask-image: url(../img/wave.svg);
     mask-repeat: no-repeat;
     mask-size: 100% 100%;
+}
+
+.mask-top {
+    transform: rotate(180deg);
 }
 
 /* #endregion  Main classes */
